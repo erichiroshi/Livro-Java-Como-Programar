@@ -1,5 +1,7 @@
 package capitulo_08.cap_08;
 
+import java.util.Comparator;
+
 // Figura 8.5: Time2.java
 // declaração da classe Time2 com construtores sobrecarregados.
 public class Time2 {
@@ -11,7 +13,7 @@ public class Time2 {
 	// construtor sem argumento Time2:
 	// inicializa cada variável de instância para zero
 	public Time2() {
-		
+
 		this(0, 0, 0); // invoca o construtor com três argumentos
 	}
 
@@ -23,7 +25,7 @@ public class Time2 {
 
 	// Construtor Time2: hora e minuto fornecidos, segundo padronizado para 0
 	public Time2(int hour, int minute) {
-		
+
 		this(hour, minute, 0); // invoca o construtor com três arugmentos
 	}
 
@@ -73,16 +75,16 @@ public class Time2 {
 
 	// valida e configura a hora
 	public void setHour(int hour) {
-		
+
 		if (hour < 0 || hour >= 24)
 			throw new IllegalArgumentException("hour must be 0-23;");
-		
+
 		this.hour = hour;
 	}
 
 	// valida e configura os minutos
 	public void setMinute(int minute) {
-		
+
 		if (minute < 0 || minute >= 60)
 			throw new IllegalArgumentException("minute must be 0 - 59");
 
@@ -101,19 +103,19 @@ public class Time2 {
 	// Método get
 	// obtém valor da hora
 	public int getHour() {
-		
+
 		return hour;
 	}
 
 	// obtém valor dos minutos
 	public int getMinute() {
-		
+
 		return minute;
 	}
 
 	// obtém valor dos segundos
 	public int getSecond() {
-		
+
 		return second;
 	}
 
@@ -125,8 +127,9 @@ public class Time2 {
 
 	// converte em String no formato padrão de data/hora (H:MM:SS AM ou PM)
 	public String toString() {
-		
+
 		return String.format("%d:%02d:%02d %s", ((getHour() == 0 || getHour() == 12) ? 12 : getHour() % 12),
 				getMinute(), getSecond(), (getHour() < 12 ? "AM" : "PM"));
 	}
+
 } // fim da classe Time2
