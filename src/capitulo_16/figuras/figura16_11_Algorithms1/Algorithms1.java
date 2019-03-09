@@ -37,10 +37,6 @@ public class Algorithms1 {
 		System.out.printf("%nAfter calling fill, list contains:%n");
 		output(list);
 
-		
-		System.out.println();
-		for(Character c : letters)
-		System.out.println(c);
 	}
 
 	// envia informações de List para saída
