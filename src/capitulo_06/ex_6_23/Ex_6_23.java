@@ -15,6 +15,7 @@ public class Ex_6_23 {
 
 		System.out.println("O menor dos três é: " + minimum3(a, b, c));
 
+		input.close();
 	}
 
 	public static double minimum3(double a, double b, double c) {

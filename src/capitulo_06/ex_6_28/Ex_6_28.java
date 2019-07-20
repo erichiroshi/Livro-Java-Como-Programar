@@ -6,19 +6,14 @@ public class Ex_6_28 {
 
 	public static void main(String[] args) {
 
-
 		Scanner input = new Scanner(System.in);
-		
+
 		System.out.println("Dígite sua média");
-		
-		System.out.println("Sua média é: "+(qualityPoints(input.nextInt())));
-		
-		
-		
-		
-		
-		
-		
+
+		System.out.println("Sua média é: " + (qualityPoints(input.nextInt())));
+
+		input.close();
+
 	}
 
 	public static int qualityPoints(int nota) {

@@ -20,7 +20,7 @@ public class ex2_26 {
 		} else {
 			System.out.println("Não é multiplo");
 		}
-
+		input.close();
 	}
 
 }

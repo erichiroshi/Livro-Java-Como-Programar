@@ -26,7 +26,7 @@ public class ex_5_11 {
 			System.out.printf("%nO menor número digitado foi: %d", menor);
 		else
 			System.out.println("\nNenhum número inserido");
-
+		input.close();
 	}
 
 }

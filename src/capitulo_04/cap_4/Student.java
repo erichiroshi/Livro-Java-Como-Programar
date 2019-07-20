@@ -25,9 +25,9 @@ public class Student {
 
 	public void setAverage(double studentAverage) {
 
-		if (average > 0.0)
-			if (average <= 100.0)
-				this.average = average;
+		if (studentAverage > 0.0)
+			if (studentAverage <= 100.0)
+				this.average = studentAverage;
 
 	}
 

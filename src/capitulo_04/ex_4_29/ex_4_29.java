@@ -38,5 +38,6 @@ public class ex_4_29 {
 			System.out.print("*");
 			i++;
 		}
+		input.close();
 	}
 }

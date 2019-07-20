@@ -13,7 +13,7 @@ public class ex_6_19 {
 		char fill = input.next().charAt(0);
 
 		squareOfAsterisks(side, fill);
-
+		input.close();
 	}
 
 	public static void squareOfAsterisks(int side, char fillCharacter) {

@@ -24,7 +24,7 @@ public class ex2_6 {
 		result = x * y * z;
 
 		System.out.printf("Product is %d%n", result);
-
+		input.close();
 	}
 
 }

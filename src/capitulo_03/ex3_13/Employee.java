@@ -6,35 +6,30 @@ public class Employee {
 	private String sobrenome;
 	private double salario;
 	private int aumento;
-	
-	public Employee(String nome, String sobrenome, double salario) {
-		
-		
-		this.nome = nome;
-		this.sobrenome = sobrenome;
-		
-		if(salario>0)
-		this.salario = salario;
+
+	public int getAumento() {
+		return aumento;
 	}
 
-	
+	public Employee(String nome, String sobrenome, double salario) {
+
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+
+		if (salario > 0)
+			this.salario = salario;
+	}
+
 	public double getSalarioAnual() {
-		return this.salario*12;
+		return this.salario * 12;
 	}
-	
+
 	public void setAumento(int aumento) {
-		
-		this.salario = this.salario*aumento/100 + this.salario;
-		
+
+		this.salario = this.salario * aumento / 100 + this.salario;
+
 	}
-	
-	
-	
-	
-	
-	
-	
-	
+
 	public String getNome() {
 		return nome;
 	}
@@ -58,17 +53,5 @@ public class Employee {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 }

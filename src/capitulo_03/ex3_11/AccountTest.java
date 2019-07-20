@@ -60,5 +60,6 @@ public class AccountTest {
 		 * // exibe o nome armazenado no objeto muAccount
 		 * System.out.printf("Name in object myAccount is:%n%s%n", account1.getName());
 		 */
+		input.close();
 	}
 } // fim da classe AccountTest

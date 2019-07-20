@@ -78,6 +78,7 @@ public class Craps {
 			}
 
 		}
+		input.close();
 	}
 
 	public static int rollDice() {

@@ -22,7 +22,7 @@ public class ex_4_21 {
 		}
 
 		System.out.printf("O maior número foi: %d", largest);
-
+		input.close();
 	}
 
 }

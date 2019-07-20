@@ -1,7 +1,6 @@
 package capitulo_06.cap_6;
 
 import java.security.SecureRandom;
-import java.util.Random;
 
 public class RollDie {
 

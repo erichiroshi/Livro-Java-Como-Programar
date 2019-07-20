@@ -17,7 +17,7 @@ public class Ex_6_32 {
 		int d = input.nextInt();
 
 		System.out.printf("A distância entre os pontos é: %.2f", distance(a, b, c, d));
-
+		input.close();
 	}
 
 	// (4,5) (3,7) d = (3-4)²+(7-5)²

@@ -12,6 +12,7 @@ public class ex_4_20 {
 
 		Funcionario a = new Funcionario();
 
+		@SuppressWarnings("unused")
 		Funcionario[] b = new Funcionario[2];
 
 		while (i <= 3) {
@@ -22,7 +23,7 @@ public class ex_4_20 {
 			System.out.printf("Funcionário receberá: R$%.2f%n%n", a.receber());
 
 		}
-
+		input.close();
 	}
 
 }

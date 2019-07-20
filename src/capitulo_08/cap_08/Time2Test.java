@@ -21,6 +21,7 @@ public class Time2Test {
 
 		// tenta inicializar t6 com valores inválidos
 		try {
+			@SuppressWarnings("unused")
 			Time2 t6 = new Time2(27, 74, 99); // valores inválidos
 		} catch (IllegalArgumentException e) {
 			System.out.printf("%nException while initializing t6: %s%n", e.getMessage());

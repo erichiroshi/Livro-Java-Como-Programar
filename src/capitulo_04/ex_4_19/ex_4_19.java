@@ -34,7 +34,7 @@ public class ex_4_19 {
 		} while (item != 0);
 
 		System.out.printf("Vendedor recebeu R$%.2f", (200 + vendas * 9 / 100));
-
+		input.close();
 	}
 
 }

@@ -14,6 +14,7 @@ public class Ex_6_21 {
 		System.out.println();
 		displayDigits2(num);
 
+		input.close();
 	}
 
 	public static int intQuociete(int a, int b) {
@@ -45,20 +46,21 @@ public class Ex_6_21 {
 		}
 
 	}
-/*
-	public static void displayDigits(int num) {
-
-		int x = 1;
-
-		for (int i = x / 10; i >= 1; i /= 10) {
-
-			int pri = intQuociete(num, i);
-
-			System.out.printf("%d  ", pri);
-
-			num = num - pri * i;
-
-		}
-
-	}*/
+	/*
+	 * public static void displayDigits(int num) {
+	 * 
+	 * int x = 1;
+	 * 
+	 * for (int i = x / 10; i >= 1; i /= 10) {
+	 * 
+	 * int pri = intQuociete(num, i);
+	 * 
+	 * System.out.printf("%d  ", pri);
+	 * 
+	 * num = num - pri * i;
+	 * 
+	 * }
+	 * 
+	 * }
+	 */
 }

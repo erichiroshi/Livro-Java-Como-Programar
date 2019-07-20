@@ -22,6 +22,7 @@ public class Ex_6_25 {
 	public static boolean isPrimo(int num) {
 
 		int soma = 0;
+		@SuppressWarnings("unused")
 		int cont = 0;
 
 		for (int i = 1; i <= num; i++) {

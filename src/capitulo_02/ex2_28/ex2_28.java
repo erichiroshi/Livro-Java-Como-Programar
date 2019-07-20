@@ -15,7 +15,7 @@ public class ex2_28 {
 		r = input.nextFloat();
 
 		System.out.printf("diametro = %.2f%ncircunferência = %.2f%nárea = %.2f%n", 2 * r, 2 * r * Math.PI, Math.PI * r * r);
-
+		input.close();
 	}
 
 }

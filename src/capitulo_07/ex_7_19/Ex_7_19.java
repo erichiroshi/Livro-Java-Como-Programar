@@ -22,5 +22,6 @@ public class Ex_7_19 {
 				r1.primeiraClasse();
 
 		}
+		input.close();
 	}
 }

@@ -1,7 +1,5 @@
 package capitulo_08.cap_08;
 
-import java.util.Comparator;
-
 // Figura 8.5: Time2.java
 // declaração da classe Time2 com construtores sobrecarregados.
 public class Time2 {

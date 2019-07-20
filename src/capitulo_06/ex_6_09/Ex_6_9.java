@@ -16,7 +16,7 @@ public class Ex_6_9 {
 		double y = Math.floor(num + 0.5);
 
 		System.out.printf("Número digitado: %f%nNúmero arredondado: %f", num, y);
-
+		input.close();
 	}
 
 }

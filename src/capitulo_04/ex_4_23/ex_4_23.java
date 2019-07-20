@@ -31,7 +31,7 @@ public class ex_4_23 {
 
 		System.out.printf("O maior número foi: %d", primeiro);
 		System.out.printf("%nO segundo maior número foi: %d", segundo);
-
+		input.close();
 	}
 
 }

@@ -31,6 +31,7 @@ public class ex_4_17 {
 		} while (flag == 1);
 
 		System.out.println("Obrigado por usar o programa!");
+		input.close();
 	}
 
 }

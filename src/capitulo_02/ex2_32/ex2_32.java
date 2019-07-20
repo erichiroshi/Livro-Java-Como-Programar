@@ -55,7 +55,7 @@ public class ex2_32 {
 		System.out.println("Positivos = " + pos);
 		System.out.println("Negativo = " + neg);
 		System.out.println("Zeros = " + zero);
-
+		input.close();
 	}
 
 }

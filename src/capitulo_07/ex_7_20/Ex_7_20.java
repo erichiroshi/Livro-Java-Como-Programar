@@ -50,6 +50,7 @@ public class Ex_7_20 {
 			System.out.println();
 
 		}
+		input.close();
 
 	}
 

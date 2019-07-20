@@ -20,7 +20,7 @@ public class ex2_30 {
 		e = (num - a * 10000 - b * 1000 - c * 100 - d * 10);
 
 		System.out.printf("%d   %d   %d   %d   %d   ", a, b, c, d, e);
-
+		input.close();
 	}
 
 }

@@ -39,6 +39,7 @@ public class Ex_5_17 {
 
 		System.out.printf("O Valor total é: %.2f", total);
 
+		input.close();
 	}
 
 }

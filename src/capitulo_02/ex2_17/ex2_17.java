@@ -43,7 +43,7 @@ public class ex2_17 {
 
 		System.out.printf("soma = %d%nmedia = %d%nproduto = %d%nmenor = %d%nmaior = %d%n", soma, media, produto,
 				menor, maior);
-
+		input.close();
 	}
 
 }

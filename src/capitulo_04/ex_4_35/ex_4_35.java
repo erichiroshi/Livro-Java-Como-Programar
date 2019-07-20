@@ -19,7 +19,7 @@ public class ex_4_35 {
 		c = input.nextInt();
 
 		System.out.println(tri.verifica(a, b, c) ? "Pode ser um triângulo" : "Não pode ser um triângulo");
-
+		input.close();
 	}
 
 }

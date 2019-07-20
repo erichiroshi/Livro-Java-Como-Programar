@@ -33,7 +33,7 @@ public class Ex_6_30 {
 				tentativas = 0;
 
 		} while (esc == 1);
-
+		input.close();
 	}
 
 	public static String achaNumero(int ale, int num) {

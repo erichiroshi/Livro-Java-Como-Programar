@@ -13,6 +13,7 @@ public class Ex_6_18 {
 
 		squareOfAsterisks(side);
 
+		input.close();
 	}
 
 	public static void squareOfAsterisks(int side) {

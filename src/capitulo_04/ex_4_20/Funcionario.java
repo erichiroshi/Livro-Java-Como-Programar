@@ -12,10 +12,10 @@ public class Funcionario {
 	public double receber() {
 
 		if (horas <= 40) {
-			return receber = this.salario * this.horas;
+			return setReceber(this.salario * this.horas);
 		} else {
-			return receber = (this.salario * 40
-					+ (this.salario * (this.horas - 40) + this.salario * (this.horas - 40) * 0.5));
+			return setReceber((this.salario * 40
+					+ (this.salario * (this.horas - 40) + this.salario * (this.horas - 40) * 0.5)));
 		}
 
 	}
@@ -34,6 +34,15 @@ public class Funcionario {
 
 	public void setHoras(int horas) {
 		this.horas = horas;
+	}
+
+	public double getReceber() {
+		return receber;
+	}
+
+	public double setReceber(double receber) {
+		this.receber = receber;
+		return receber;
 	}
 
 }

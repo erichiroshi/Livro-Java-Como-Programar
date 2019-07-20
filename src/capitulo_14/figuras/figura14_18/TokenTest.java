@@ -22,5 +22,6 @@ public class TokenTest {
 		for (String token : tokens)
 			System.out.println(token);
 
+		scanner.close();
 	}
 } // fim da classe TokenTest

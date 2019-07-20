@@ -1,6 +1,5 @@
 package capitulo_16.figuras.figura16_03;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;

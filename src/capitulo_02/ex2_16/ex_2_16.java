@@ -22,7 +22,7 @@ public class ex_2_16 {
 			System.out.printf("%d é maior que %d", num2, num1);
 		} else
 			System.out.printf("Os números são iguais");
-
+		input.close();
 	}
 
 }

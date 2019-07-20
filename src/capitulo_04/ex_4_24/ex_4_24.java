@@ -31,7 +31,7 @@ public class ex_4_24 {
 
 		if (passes > 8)
 			System.out.println("Bonus to instructor!");
-
+		input.close();
 	}
 
 }

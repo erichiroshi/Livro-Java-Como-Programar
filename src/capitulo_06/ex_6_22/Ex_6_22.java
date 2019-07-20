@@ -18,6 +18,7 @@ public class Ex_6_22 {
 		} else
 			System.out.printf("%d °C para Celsius = %d F", temp, fahrenheit(temp));
 
+		input.close();
 	}
 
 	public static int celsius(int fahrenheit) {

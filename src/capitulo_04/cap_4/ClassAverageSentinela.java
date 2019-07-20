@@ -31,6 +31,7 @@ public class ClassAverageSentinela {
 		} else
 			System.out.println("No grades were entered");
 
+		input.close();
 	}
 
 }

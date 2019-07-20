@@ -16,6 +16,7 @@ public class Ex_6_10 {
 		System.out.println(roundToHundredths(num));
 		System.out.println(roundToThousandths(num));
 
+		input.close();
 	}
 
 	public static double roundToInteger(double number) {

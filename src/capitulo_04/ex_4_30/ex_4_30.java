@@ -31,7 +31,7 @@ public class ex_4_30 {
 			System.out.println("O número é um palíndromo!");
 		else
 			System.out.println("O número não é um palíndromo!");
-
+		input.close();
 	}
 
 }

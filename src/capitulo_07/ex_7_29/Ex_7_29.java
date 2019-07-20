@@ -23,6 +23,6 @@ class Ex_7_29 {
 			aux = f - aux;
 
 		}
-
+		input.close();
 	}
 }

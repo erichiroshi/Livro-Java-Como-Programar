@@ -52,6 +52,6 @@ public class Ex_5_25 {
 
 			aux -= 2;
 		}
-
+		input.close();
 	}
 }

@@ -48,6 +48,9 @@ public class Ex_7_28 {
 			System.out.println("A TARTARUGA VENCEU!!!");
 		else if (posL >= 70 && posT >= 70)
 			System.out.println("OCORREU UM EMPATE!!!");
+		
+		input.close();
 	}
+	
 
 }

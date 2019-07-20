@@ -18,7 +18,7 @@ public class ex2_25 {
 		} else {
 			System.out.printf("%d é um número impar", num1);
 		}
-
+		input.close();
 	}
 
 }

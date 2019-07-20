@@ -15,7 +15,7 @@ public class Ex_6_8 {
 		m = input.nextInt();
 
 		System.out.printf("Pagará R$%.2f de estacionamento.", calculateCharges(h, m));
-
+		input.close();
 	}
 
 	public static double calculateCharges(int h, int m) {

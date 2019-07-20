@@ -15,8 +15,8 @@ public class EmployeeTest2 {
 
 		// mostra que a contagem é 2 depois de criar dois Employees
 		System.out.printf("%nEmployees after instantiantion:%n");
-		System.out.printf("via e1.getCount(): %d%n", e1.getCount());
-		System.out.printf("via e2.getCount(): %d%n", e2.getCount());
+		System.out.printf("via e1.getCount(): %d%n", Employee2.getCount());
+		System.out.printf("via e2.getCount(): %d%n", Employee2.getCount());
 		System.out.printf("via Employee2.getCount(): %d%n", Employee2.getCount());
 
 		// obtém nomes de Employees

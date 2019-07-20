@@ -13,6 +13,7 @@ public class Ex_6_26 {
 
 		inverte(input.nextInt());
 
+		input.close();
 	}
 
 	// 123 321

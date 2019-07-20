@@ -48,7 +48,7 @@ public class Ex_5_16 {
 			System.out.print("*");
 		}
 		
-
+		input.close();
 	}
 
 }

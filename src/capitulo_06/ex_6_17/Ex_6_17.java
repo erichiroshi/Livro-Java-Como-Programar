@@ -18,6 +18,7 @@ public class Ex_6_17 {
 
 		} while (num != 0);
 
+		input.close();
 	}
 
 	public static boolean isEven(int num) {

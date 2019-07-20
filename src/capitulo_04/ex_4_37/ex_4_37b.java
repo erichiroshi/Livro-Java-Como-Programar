@@ -28,7 +28,7 @@ public class ex_4_37b {
 		System.out.printf("%.15f%n", euler);
 
 		System.out.println(Math.E);
-
+		input.close();
 	}
 
 }

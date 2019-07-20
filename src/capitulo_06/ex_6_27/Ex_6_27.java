@@ -14,6 +14,7 @@ public class Ex_6_27 {
 
 		System.out.println("O MDC é: "+ mdc(a, b));
 
+		input.close();
 	}
 
 	public static int mdc(int a, int b) {

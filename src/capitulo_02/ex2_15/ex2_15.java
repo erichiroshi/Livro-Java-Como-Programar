@@ -17,7 +17,7 @@ public class ex2_15 {
 
 		System.out.printf("Soma = %d%nDiferença = %d%nProduto = %d%nDivisão = %d%n", num1 + num2, num1 - num2,
 				num1 * num2, num1 / num2);
-
+		input.close();
 	}
 
 }

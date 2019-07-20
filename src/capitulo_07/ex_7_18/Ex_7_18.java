@@ -1,7 +1,6 @@
 package capitulo_07.ex_7_18;
 
 import java.security.SecureRandom;
-import java.util.ArrayList;
 
 public class Ex_7_18 {
 

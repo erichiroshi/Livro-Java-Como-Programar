@@ -16,7 +16,7 @@ public class MaximumFinder {
 		double result = maximum(number1, number2, number3);
 
 		System.out.println("Maximum is: " +  result);
-
+		input.close();
 	}
 
 	public static double maximum(double x, double y, double z) {

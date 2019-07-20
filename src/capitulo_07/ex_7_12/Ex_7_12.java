@@ -25,6 +25,7 @@ public class Ex_7_12 {
 				System.out.printf("%d ", array[j]);
 			System.out.println();
 		}
+		input.close();
 	}
 
 	public static boolean verificaIgual(int num, int[] array) {

@@ -66,6 +66,7 @@ public class LettersGrades {
 		} else
 			System.out.println("No grades were entered");
 
+		input.close();
 	}
 
 }

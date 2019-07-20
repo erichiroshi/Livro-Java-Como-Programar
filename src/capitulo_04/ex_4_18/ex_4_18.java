@@ -29,6 +29,7 @@ public class ex_4_18 {
 		if (eric.limite() != true) {
 			System.out.println("Limite de crédito excedido");
 		}
+		input.close();
 
 	}
 
