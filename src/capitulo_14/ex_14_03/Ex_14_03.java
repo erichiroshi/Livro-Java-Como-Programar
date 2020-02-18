@@ -1,7 +1,5 @@
 package capitulo_14.ex_14_03;
 
-// Comparando Strings
-
 import java.util.Scanner;
 
 public class Ex_14_03 {
@@ -10,21 +8,17 @@ public class Ex_14_03 {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Digite uma String");
-		String str1 = scanner.nextLine();
+		String s1 = scanner.next();
+		String s2 = scanner.next();
 
-		System.out.println("Digite outra String");
-		String str2 = scanner.nextLine();
-
-		if (str1.compareTo(str2) > 0)
-			System.out.printf("%s é maior que %s", str1, str2);
-		else if (str1.compareTo(str2) < 0)
-			System.out.printf("%s é menor que %s", str1, str2);
-		else
-			System.out.println("As strings são iguais");
+		if (s1.compareTo(s2) > 0) {
+			System.out.printf("%s é maior que %s", s1, s2);
+		} else if (s1.compareTo(s2) < 0) {
+			System.out.printf("%s é menor que %s", s1, s2);
+		} else {
+			System.out.printf("%s é igual que %s", s1, s2);
+		}
 
 		scanner.close();
-
 	}
-
 }
